@@ -1,8 +1,7 @@
-<?php 
-
+<?php
 	$servidor 	= 	'localhost';
-	$user		=	'root';	
-	$passowrd	=	'';
+	$user		=	'phpmyadmin';	
+	$passowrd	=	'junior0303';
 	$db			=	'factura';
 
 	$conn = new mysqli($servidor, $user, $passowrd, $db);

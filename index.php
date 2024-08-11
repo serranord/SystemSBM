@@ -1,6 +1,5 @@
-<?php 	
-	require('conexion.php');
-
+<?php 	    
+    require('conexion.php');
 	session_start();
 	if (!empty($_SESSION['active'])) {
 		header("location: sistema/");
